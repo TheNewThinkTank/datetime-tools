@@ -5,7 +5,7 @@ Common datetime operations
 ## Installation
 
 ```BASH
-pip install datetime-tools
+pip install datetime-convertion-tools
 ```
 
 ## Usage example
