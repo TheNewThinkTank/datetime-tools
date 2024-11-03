@@ -14,12 +14,15 @@ Importing
 
 ```Python
 from datetime_tools.get_year_and_week import get_year_and_week
+from datetime_tools.get_duration import get_duration_minutes
 ```
 
 Usage
 
-`get_year_and_week("2022-10-29")`
-
+```Python
+get_year_and_week("2022-10-29")
+get_duration_minutes("14:45", "15:10")
+```
 
 <!--
 ## Create a new release
