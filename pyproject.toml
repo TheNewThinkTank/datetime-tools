@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "datetime-tools"
+version = "0.0.1"
+description = "Common datetime operations"
+authors = ["Gustav Rasmussen"]
+readme = "README.md"
+packages = [{include = "datetime_tools"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.3"
+black = "^24.10.0"
+ruff = "^0.7.2"
+mypy = "^1.13.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
