@@ -1,6 +1,6 @@
 [tool.poetry]
-name = "datetime-tools"
-version = "0.0.1"
+name = "datetime-convertion-tools"
+version = "0.0.2"
 description = "Common datetime operations"
 authors = ["Gustav Rasmussen"]
 readme = "README.md"
