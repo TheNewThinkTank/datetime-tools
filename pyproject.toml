@@ -15,6 +15,10 @@ black = "^24.10.0"
 ruff = "^0.7.2"
 mypy = "^1.13.0"
 
+[tool.ruff]
+ignore = ["F401", "F841", "E402", "E501", "E999"]
+exclude = [".venv"]
+
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"

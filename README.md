@@ -1,3 +1,6 @@
+
+[![codecov](https://codecov.io/gh/TheNewThinkTank/datetime-tools/branch/main/graph/badge.svg?token=CKAX4A3JQF)](https://codecov.io/gh/TheNewThinkTank/datetime-tools)
+
 # datetime-tools
 
 Common datetime operations
