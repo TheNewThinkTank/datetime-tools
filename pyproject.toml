@@ -10,6 +10,7 @@ packages = [{include = "datetime_tools"}]
 python = "^3.11"
 ruff = "^0.7.3"
 pytest-cov = "^6.0.0"
+pandas = "^2.2.3"
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^8.3.3"
