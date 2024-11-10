@@ -55,11 +55,21 @@ jobs:
       - name: static-type-checks-with-mypy
         run: make -f .config/Makefile static-type-checks
 
-      - name: run-tests-and-generate-coverage
-        run: make -f .config/Makefile run-tests-and-coverage
+    #   - name: run-tests-and-generate-coverage
+    #     run: make -f .config/Makefile run-tests-and-coverage
 
-      - uses: codecov/codecov-action@v4
+    #   - uses: codecov/codecov-action@v4
+    #     with:
+    #       token: ${{ secrets.CODECOV_TOKEN }}
+    #       verbose: true
+    #       codecov_yml_path: .config/codecov.yml
+
+      - name: Run tests
+        run: pytest --cov --cov-report=xml
+
+      - name: Upload results to Codecov
+        uses: codecov/codecov-action@v4
         with:
           token: ${{ secrets.CODECOV_TOKEN }}
-          verbose: true
-          codecov_yml_path: .config/codecov.yml
+          slug: TheNewThinkTank/datetime-tools
+ 
