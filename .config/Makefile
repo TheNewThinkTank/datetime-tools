@@ -17,7 +17,7 @@ lint-flake8:
 # Lint with ruff
 .PHONY: lint-ruff
 lint-ruff:
-	poetry run ruff .
+	poetry run ruff check
 
 # Static type checks with mypy
 .PHONY: static-type-checks
