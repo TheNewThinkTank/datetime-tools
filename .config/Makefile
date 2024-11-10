@@ -22,13 +22,13 @@ lint-ruff:
 # Static type checks with mypy
 .PHONY: static-type-checks
 static-type-checks:
-	poetry run mypy datetime-tools/ --exclude '/site-packages/'
+	poetry run mypy datetime_tools/ --exclude '/site-packages/'
 
 # Wily build and rank
 .PHONY: wily-build-and-rank
 wily-build-and-rank:
-	poetry run wily build datetime-tools
-	poetry run wily rank datetime-tools
+	poetry run wily build datetime_tools
+	poetry run wily rank datetime_tools
 
 # Run unit tests and make coverage report
 .PHONY: run-tests-and-coverage
