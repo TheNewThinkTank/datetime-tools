@@ -1,4 +1,12 @@
 
+<a href="https://pypi.org/project/datetime-convertion-tools/">
+<img src="https://img.shields.io/pypi/v/datetime-convertion-tools.svg">
+</a>
+<a href="https://github.com/TheNewThinkTank/msgspec/blob/main/LICENSE">
+<img src="https://img.shields.io/github/license/TheNewThinkTank/datetime-tools.svg">
+</a>
+
+![PyPI Downloads](https://img.shields.io/pypi/dm/datetime-convertion-tools)
 ![CI](https://github.com/TheNewThinkTank/datetime-tools/actions/workflows/wf.yml/badge.svg)
 [![codecov](https://codecov.io/gh/TheNewThinkTank/datetime-tools/branch/main/graph/badge.svg?token=CKAX4A3JQF)](https://codecov.io/gh/TheNewThinkTank/datetime-tools)
 ![commit activity](https://img.shields.io/github/commit-activity/m/TheNewThinkTank/datetime-tools)
