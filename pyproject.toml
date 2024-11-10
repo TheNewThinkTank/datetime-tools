@@ -1,3 +1,6 @@
+[project.urls]
+Homepage = "https://github.com/TheNewThinkTank/datetime-tools"
+
 [tool.poetry]
 name = "datetime-convertion-tools"
 version = "0.0.10"
