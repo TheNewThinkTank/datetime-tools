@@ -1,7 +1,8 @@
 
+![CI](https://github.com/TheNewThinkTank/datetime-tools/actions/workflows/wf.yml/badge.svg)
 [![codecov](https://codecov.io/gh/TheNewThinkTank/datetime-tools/branch/main/graph/badge.svg?token=CKAX4A3JQF)](https://codecov.io/gh/TheNewThinkTank/datetime-tools)
-
-<!-- [![codecov](https://codecov.io/gh/TheNewThinkTank/datetime-tools/graph/badge.svg?token=8BBDs8MwJv)](https://codecov.io/gh/TheNewThinkTank/datetime-tools) -->
+![commit activity](https://img.shields.io/github/commit-activity/m/TheNewThinkTank/datetime-tools)
+[![GitHub repo size](https://img.shields.io/github/repo-size/TheNewThinkTank/datetime-tools?style=flat&logo=github&logoColor=whitesmoke&label=Repo%20Size)](https://github.com/TheNewThinkTank/datetime-tools/archive/refs/heads/main.zip)
 
 # datetime-tools
 
