@@ -2,7 +2,7 @@
 import calendar
 from datetime import datetime, timedelta
 from random import choice
-from dateutil import rrule, parser
+from dateutil import rrule, parser  # type: ignore
 import pandas as pd  # type: ignore
 from typing import Generator
 
