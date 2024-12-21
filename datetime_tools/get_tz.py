@@ -3,10 +3,10 @@ from enum import Flag, auto
 
 
 class Timezone(Flag):
-    CET: int = auto()
-    CEST: int = auto()
-    ICT: int = auto()
-    DK: int = CET | CEST
+    CET = auto()
+    CEST = auto()
+    ICT = auto()
+    DK = CET | CEST
 
 
 if __name__ == "__main__":
