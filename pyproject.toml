@@ -3,7 +3,7 @@ Homepage = "https://github.com/TheNewThinkTank/datetime-tools"
 
 [tool.poetry]
 name = "datetime-convertion-tools"
-version = "0.0.14"
+version = "0.0.15"
 description = "Common datetime operations"
 authors = ["Gustav Rasmussen"]
 readme = "README.md"
