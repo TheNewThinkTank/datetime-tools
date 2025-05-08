@@ -1,6 +1,3 @@
-[project.urls]
-Homepage = "https://github.com/TheNewThinkTank/datetime-tools"
-
 [tool.poetry]
 name = "datetime-convertion-tools"
 version = "0.0.15"
@@ -8,6 +5,9 @@ description = "Common datetime operations"
 authors = ["Gustav Rasmussen"]
 readme = "README.md"
 packages = [{include = "datetime_tools"}]
+
+[tool.poetry.urls]
+Homepage = "https://github.com/TheNewThinkTank/datetime-tools"
 
 [tool.poetry.dependencies]
 numpy = "2.2.0"
