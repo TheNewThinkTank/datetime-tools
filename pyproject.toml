@@ -10,7 +10,7 @@ packages = [{include = "datetime_tools"}]
 Homepage = "https://github.com/TheNewThinkTank/datetime-tools"
 
 [tool.poetry.dependencies]
-numpy = "2.2.0"
+numpy = "2.3.1"
 python = "^3.11"
 ruff = "^0.8.4"
 pytest-cov = "^6.0.0"
